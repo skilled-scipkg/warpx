@@ -1,0 +1,409 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "warpx",
+  "evidence": {
+    "core_skills": [
+      "warpx-build-and-install",
+      "warpx-simulation-workflows",
+      "warpx-getting-started",
+      "warpx-inputs-and-modeling",
+      "warpx-analysis-and-output",
+      "warpx-developer-guide"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/warpx-build-and-install.md",
+      "skills/.evidence/warpx-simulation-workflows.md",
+      "skills/.evidence/warpx-getting-started.md",
+      "skills/.evidence/warpx-inputs-and-modeling.md",
+      "skills/.evidence/warpx-analysis-and-output.md",
+      "skills/.evidence/warpx-developer-guide.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/warpx-advanced-topics/SKILL.md",
+        "skills/warpx-advanced-topics/references/doc_map.md",
+        "skills/warpx-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/warpx-acknowledge-us/SKILL.md",
+        "skills/warpx-acknowledge-us/references/doc_map.md",
+        "skills/warpx-acknowledge-us/references/source_map.md",
+        "skills/warpx-acknowledgements/SKILL.md",
+        "skills/warpx-acknowledgements/references/doc_map.md",
+        "skills/warpx-acknowledgements/references/source_map.md",
+        "skills/warpx-advanced-topics/SKILL.md",
+        "skills/warpx-advanced-topics/references/doc_map.md",
+        "skills/warpx-advanced-topics/references/source_map.md",
+        "skills/warpx-analysis-and-output/SKILL.md",
+        "skills/warpx-build-and-install/SKILL.md",
+        "skills/warpx-code-of-conduct/SKILL.md",
+        "skills/warpx-code-of-conduct/references/doc_map.md",
+        "skills/warpx-code-of-conduct/references/source_map.md",
+        "skills/warpx-developer-guide/SKILL.md",
+        "skills/warpx-getting-started/SKILL.md",
+        "skills/warpx-glossary/SKILL.md",
+        "skills/warpx-glossary/references/doc_map.md",
+        "skills/warpx-glossary/references/source_map.md",
+        "skills/warpx-governance/SKILL.md",
+        "skills/warpx-governance/references/doc_map.md",
+        "skills/warpx-governance/references/source_map.md",
+        "skills/warpx-index/SKILL.md",
+        "skills/warpx-inputs-and-modeling/SKILL.md",
+        "skills/warpx-regression/SKILL.md",
+        "skills/warpx-regression/references/doc_map.md",
+        "skills/warpx-regression/references/source_map.md",
+        "skills/warpx-simulation-workflows/SKILL.md"
+      ],
+      "deleted": [
+        "skills/warpx-acknowledge-us/SKILL.md",
+        "skills/warpx-acknowledge-us/references/doc_map.md",
+        "skills/warpx-acknowledge-us/references/source_map.md",
+        "skills/warpx-acknowledgements/SKILL.md",
+        "skills/warpx-acknowledgements/references/doc_map.md",
+        "skills/warpx-acknowledgements/references/source_map.md",
+        "skills/warpx-code-of-conduct/SKILL.md",
+        "skills/warpx-code-of-conduct/references/doc_map.md",
+        "skills/warpx-code-of-conduct/references/source_map.md",
+        "skills/warpx-glossary/SKILL.md",
+        "skills/warpx-glossary/references/doc_map.md",
+        "skills/warpx-glossary/references/source_map.md",
+        "skills/warpx-governance/SKILL.md",
+        "skills/warpx-governance/references/doc_map.md",
+        "skills/warpx-governance/references/source_map.md",
+        "skills/warpx-regression/SKILL.md",
+        "skills/warpx-regression/references/doc_map.md",
+        "skills/warpx-regression/references/source_map.md"
+      ],
+      "modified": [
+        "skills/warpx-analysis-and-output/SKILL.md",
+        "skills/warpx-build-and-install/SKILL.md",
+        "skills/warpx-developer-guide/SKILL.md",
+        "skills/warpx-getting-started/SKILL.md",
+        "skills/warpx-index/SKILL.md",
+        "skills/warpx-inputs-and-modeling/SKILL.md",
+        "skills/warpx-simulation-workflows/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/warpx-advanced-topics/references/source_map.md",
+        "skills/warpx-analysis-and-output/references/doc_map.md",
+        "skills/warpx-analysis-and-output/references/source_map.md",
+        "skills/warpx-api-and-scripting/SKILL.md",
+        "skills/warpx-api-and-scripting/references/doc_map.md",
+        "skills/warpx-api-and-scripting/references/source_map.md",
+        "skills/warpx-build-and-install/references/doc_map.md",
+        "skills/warpx-build-and-install/references/source_map.md",
+        "skills/warpx-developer-guide/references/source_map.md",
+        "skills/warpx-examples-and-tutorials/SKILL.md",
+        "skills/warpx-examples-and-tutorials/references/doc_map.md",
+        "skills/warpx-examples-and-tutorials/references/source_map.md",
+        "skills/warpx-getting-started/SKILL.md",
+        "skills/warpx-getting-started/references/doc_map.md",
+        "skills/warpx-getting-started/references/source_map.md",
+        "skills/warpx-index/SKILL.md",
+        "skills/warpx-inputs-and-modeling/references/doc_map.md",
+        "skills/warpx-inputs-and-modeling/references/source_map.md",
+        "skills/warpx-parallel-hpc/SKILL.md",
+        "skills/warpx-parallel-hpc/references/doc_map.md",
+        "skills/warpx-parallel-hpc/references/source_map.md",
+        "skills/warpx-simulation-workflows/SKILL.md",
+        "skills/warpx-simulation-workflows/references/doc_map.md",
+        "skills/warpx-simulation-workflows/references/source_map.md",
+        "skills/warpx-theory-and-methods/SKILL.md",
+        "skills/warpx-theory-and-methods/references/doc_map.md",
+        "skills/warpx-theory-and-methods/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/warpx-advanced-topics/references/source_map.md",
+        "skills/warpx-analysis-and-output/references/doc_map.md",
+        "skills/warpx-analysis-and-output/references/source_map.md",
+        "skills/warpx-api-and-scripting/SKILL.md",
+        "skills/warpx-api-and-scripting/references/doc_map.md",
+        "skills/warpx-api-and-scripting/references/source_map.md",
+        "skills/warpx-build-and-install/references/doc_map.md",
+        "skills/warpx-build-and-install/references/source_map.md",
+        "skills/warpx-developer-guide/references/source_map.md",
+        "skills/warpx-examples-and-tutorials/SKILL.md",
+        "skills/warpx-examples-and-tutorials/references/doc_map.md",
+        "skills/warpx-examples-and-tutorials/references/source_map.md",
+        "skills/warpx-getting-started/SKILL.md",
+        "skills/warpx-getting-started/references/doc_map.md",
+        "skills/warpx-getting-started/references/source_map.md",
+        "skills/warpx-index/SKILL.md",
+        "skills/warpx-inputs-and-modeling/references/doc_map.md",
+        "skills/warpx-inputs-and-modeling/references/source_map.md",
+        "skills/warpx-parallel-hpc/SKILL.md",
+        "skills/warpx-parallel-hpc/references/doc_map.md",
+        "skills/warpx-parallel-hpc/references/source_map.md",
+        "skills/warpx-simulation-workflows/SKILL.md",
+        "skills/warpx-simulation-workflows/references/doc_map.md",
+        "skills/warpx-simulation-workflows/references/source_map.md",
+        "skills/warpx-theory-and-methods/SKILL.md",
+        "skills/warpx-theory-and-methods/references/doc_map.md",
+        "skills/warpx-theory-and-methods/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "Docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Discovery dry-run confirmed docs/tutorial/source roots; Regression is pinned explicitly as a major test root.",
+      "Patched sci-skills-generator/scripts/generate_skills_folder.py to remove invalid f-string backslash expressions so dry-run and generation execute deterministically."
+    ],
+    "package_name": "warpx",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "Source",
+      "Python"
+    ],
+    "test_dirs": [
+      "Examples/Tests",
+      "Regression"
+    ],
+    "tutorial_dirs": [
+      "Examples/Physics_applications",
+      "Docs/source/usage/examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/warpx-warpx",
+  "run_id": "compile_20260304T114859010097Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "warpx-acknowledge-us",
+      "warpx-acknowledgements",
+      "warpx-analysis-and-output",
+      "warpx-api-and-scripting",
+      "warpx-build-and-install",
+      "warpx-code-of-conduct",
+      "warpx-developer-guide",
+      "warpx-examples-and-tutorials",
+      "warpx-getting-started",
+      "warpx-glossary",
+      "warpx-governance",
+      "warpx-index",
+      "warpx-inputs-and-modeling",
+      "warpx-parallel-hpc",
+      "warpx-regression",
+      "warpx-simulation-workflows",
+      "warpx-theory-and-methods"
+    ],
+    "core_skill_ids": [
+      "warpx-build-and-install",
+      "warpx-simulation-workflows",
+      "warpx-getting-started",
+      "warpx-inputs-and-modeling",
+      "warpx-analysis-and-output",
+      "warpx-developer-guide"
+    ],
+    "deferred_gaps": [
+      "Generator auto-discovery for tests does not include top-level 'Regression' by default; keep explicit test_dirs pinning for deterministic runs.",
+      "Low-signal governance/legal doc topics from auto-grouping should be collapsed into advanced-topics during pass 3 audit.",
+      "Troubleshooting may need a provisional merged skill if docs remain sparse after regeneration."
+    ],
+    "goal": "Generate and refine a documentation-first WarpX skill set focused on common user and developer workflows.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Docs-first routing rules",
+          "When to escalate to source maps",
+          "Canonical directory roots for docs/examples/tests/source"
+        ],
+        "reason": "High-quality routing is required so requests are sent to the right topic skill before source deep-dives.",
+        "skill_id": "warpx-index",
+        "source_hints": [
+          "Docs/source",
+          "Examples/Physics_applications",
+          "Examples/Tests",
+          "Regression",
+          "Source",
+          "Python"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "CMake configuration patterns (dims/backend/options)",
+          "Python bindings build/install flow",
+          "Common dependency/environment pitfalls"
+        ],
+        "reason": "Build/configuration issues are frequent and expensive; this skill should provide fast, correct setup paths.",
+        "skill_id": "warpx-build-and-install",
+        "source_hints": [
+          "Docs/source/install",
+          "CMakeLists.txt",
+          "cmake",
+          "setup.py",
+          "Python"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Input-file driven run lifecycle",
+          "Restart/checkpoint behavior",
+          "Executable test-backed minimal workflows"
+        ],
+        "reason": "Most runtime questions map to setup-run-diagnostics workflows that need compact, tested guidance.",
+        "skill_id": "warpx-simulation-workflows",
+        "source_hints": [
+          "Docs/source/usage",
+          "Examples/Physics_applications",
+          "Examples/Tests",
+          "Source/Evolve",
+          "Source/WarpX.cpp"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Grid/domain/boundary configuration",
+          "Species/laser/field setup entry points",
+          "Validation checklist for physical/numerical sanity"
+        ],
+        "reason": "Physics setup and numerical parameterization drive correctness, so users need docs-anchored guardrails.",
+        "skill_id": "warpx-inputs-and-modeling",
+        "source_hints": [
+          "Docs/source/usage/parameters.rst",
+          "Source/Initialization",
+          "Source/Laser",
+          "Source/FieldSolver",
+          "Source/Particles"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Backend selection and build flags",
+          "Runtime launch patterns",
+          "Performance/scaling troubleshooting entry points"
+        ],
+        "reason": "MPI/OpenMP/GPU execution and scaling are high-impact for production deployments.",
+        "skill_id": "warpx-parallel-hpc",
+        "source_hints": [
+          "Docs/source/install",
+          "Docs/source/usage",
+          "Source/Parallelization",
+          "Tools/machines"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "pywarpx/PICMI usage flow",
+          "Build/install linkage to Python bindings",
+          "Minimal script-backed examples"
+        ],
+        "reason": "Python/PICMI workflows are a primary interface and should be routed distinctly from core C++ internals.",
+        "skill_id": "warpx-api-and-scripting",
+        "source_hints": [
+          "Python/pywarpx",
+          "Source/Python",
+          "Docs/source/usage/python.rst",
+          "Examples"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "Diagnostics/output formats",
+          "Post-processing toolchain entry points",
+          "Regression-analysis scripts as validation references"
+        ],
+        "reason": "Output interpretation and post-processing are common downstream tasks and need reliable references.",
+        "skill_id": "warpx-analysis-and-output",
+        "source_hints": [
+          "Docs/source/dataanalysis",
+          "Source/Diagnostics",
+          "Tools/PostProcessing",
+          "Examples/analysis_default_regression.py",
+          "Regression/PostProcessingUtils"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "warpx-advanced-topics",
+      "warpx-developer-guide",
+      "warpx-theory-and-methods",
+      "warpx-simulation-workflows",
+      "warpx-parallel-hpc",
+      "warpx-inputs-and-modeling"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/warpx-warpx/skills/warpx-advanced-topics/SKILL.md: missing `## High-Signal Playbook` section.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/warpx-warpx/skills/warpx-developer-guide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/warpx-warpx/skills/warpx-theory-and-methods/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/warpx-warpx/skills/warpx-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/warpx-warpx/skills/warpx-parallel-hpc/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/warpx-warpx/skills/warpx-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "warpx-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "warpx-index",
+      "warpx-build-and-install",
+      "warpx-simulation-workflows",
+      "warpx-inputs-and-modeling",
+      "warpx-parallel-hpc",
+      "warpx-api-and-scripting",
+      "warpx-analysis-and-output"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 12,
+    "source_inventory": {},
+    "source_links_total": 95,
+    "topic_skills": 11,
+    "warnings": []
+  }
+}
